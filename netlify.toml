@@ -7,8 +7,7 @@
 
 [[redirects]]
   from = "/tag_path/*"
-  to = "https://cXXXX.csd.dotomi.com"
+  to = "https://cXXXX.csd.dotomi.com/:splat"
   status = 200
   force = true
-  query = {path = ":path"}
   headers = {X-From = "Netlify", X-Forwarded-Request-Path = "/tag_path", RP-Host = "netlify.cnvrm.com"}
