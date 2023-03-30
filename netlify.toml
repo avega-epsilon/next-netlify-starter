@@ -10,4 +10,5 @@
   to = "https://cXXXX.csd.dotomi.com"
   status = 200
   force = true
+  query = {path = ":path"}
   headers = {X-From = "Netlify", X-Forwarded-Request-Path = "/tag_path", RP-Host = "netlify.cnvrm.com"}
