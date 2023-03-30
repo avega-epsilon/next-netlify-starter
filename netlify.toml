@@ -10,4 +10,4 @@
   to = "https://cXXXX.csd.dotomi.com/:splat"
   status = 200
   force = true
-  headers = {X-From = "Netlify", X-Forwarded-Request-Path = "/tag_path", RP-Host = "netlify.cnvrm.com"}
+  headers = {X-From = "Netlify", X-Forwarded-Request-Path = "/tag_path", RP-Host = "netlify-next.cnvrm.com"}
