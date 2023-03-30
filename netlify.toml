@@ -6,7 +6,7 @@
   package = "netlify-plugin-cypress"
 
 [[redirects]]
-  from = "/tag_path"
+  from = "/tag_path/*"
   to = "https://cXXXX.csd.dotomi.com"
   status = 200
   force = true
